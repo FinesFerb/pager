@@ -1,0 +1,20 @@
+{
+    "name": "daniil/pager",
+    "description": "A library to split results into multiple pages",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ISPager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil Kargapoltsev",
+            "email": "kargapoltsev2016@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
